@@ -1,0 +1,42 @@
+# ========== STM32CubeMX 临时文件 ==========
+*.ioc.bak
+*.ioc~
+.MX/
+mxbackup/
+
+# ========== Keil MDK-ARM ==========
+*.uvgui*
+*.axf
+*.o
+*.d
+*.crf
+*.dep
+*.tra
+*.lnp
+*.htm
+*.map
+Debug/
+build/
+RTE/
+
+# 【按需选择】固件，不想提交hex/elf就放开下面两行
+# *.hex
+# *.elf
+
+# ========== STM32CubeIDE ==========
+*/Debug/
+*/Release/
+.metadata/
+.cproject
+.project
+.settings/
+
+# 【按需选择】调试配置 *.launch
+# 如果你想把项目内调试配置纳入版本管理，注释掉；不想提交就打开
+# *.launch
+
+# ========== 通用杂项 ==========
+*.log
+*.swp
+*~
+.DS_Store
